@@ -26,7 +26,7 @@
                     rtMaven.deployer releaseRepo: 'libs-release-local', snapshotRepo: 'libs-snapshot-local', server: server
                    // rtMaven.resolver releaseRepo: 'repo', snapshotRepo: 'repo', server: server
                     buildInfo = Artifactory.newBuildInfo()
-                    rtMaven.deployer.deployArtifacts = false // Disable artifacts deployment to artifactory
+                    rtMaven.deployer.deployArtifacts = true // Disable artifacts deployment to artifactory
                 }
                 stage('mvn goals execution') {
                     rtMaven.run pom: 'pom.xml', goals: 'clean release:clean release:prepare release:perform'
