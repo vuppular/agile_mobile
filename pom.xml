@@ -11,9 +11,10 @@
   <url>http://maven.apache.org</url>
   
     <scm>
-		<url>https://github.com/vuppula/mobile_project</url>
-		<connection>scm:git:git://github.com/vuppula/mobile_project.git</connection>
-		<developerConnection>scm:git:git@github.com:vuppula/mobile_project.git</developerConnection>
+	   git@github.com:vuppular/agile_mobile.git
+		<url>https://github.com/vuppular/agile_mobile</url>
+		<connection>scm:git:git://github.com/vuppular/agile_mobile.git</connection>
+		<developerConnection>scm:git:git@github.com:vuppular/agile_mobile.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
 
